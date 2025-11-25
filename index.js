@@ -11,6 +11,7 @@ app.use((_, res, next) => {
       team: {
         frontend: "cool dev 1",
         backend: "cool dev 2",
+        design: "Cool dev 3 lolo",
       },
     };
     return originalData(newData);
